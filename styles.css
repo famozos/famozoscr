@@ -46,3 +46,105 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+
+.darkgreen {
+    background-color: darkgreen;
+}
+
+.yellow2 {
+    background-color: #fecb0e;
+}
+
+.aquablue {
+    background-color: #156c87;
+}
+
+.orange {
+    background-color: #f7902b;
+}
+
+.blue00 {
+    background-color: #233d7a;
+}
+
+.blue01 {
+    background-color: #174894;
+}
+
+.blue02 {
+    background-color: #16629e;
+}
+
+.blue03 {
+    background-color: #1a66b1;
+}
+
+.blue04 {
+    background-color: #1996d0;
+}
+
+.blue05 {
+    background-color: #1395c9;
+}
+
+.blue06 {
+    background-color: #2ac2f3;
+}
+
+.purple00 {
+    background-color: #b61d85;
+}
+
+.purple01 {
+    background-color: #9d257e;
+}
+.purple02 {
+    background-color: #592d8e;
+}
