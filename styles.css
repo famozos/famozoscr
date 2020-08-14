@@ -55,27 +55,45 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 1.2vw;
-    margin-top: 13vw;
-    text-align: center;
-}
-
 .container {
     width: 500px;
-    margin: 150px auto 0;
+    margin: 10vh auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
     resize: both;
     overflow: auto;
     flex-wrap: wrap;
+    text-align: center;
 
     -ms-transform: rotate(-20deg); /* IE 9 */
     transform: rotate(-20deg);
 }
 
+h1, h2, h3 {
+    color: #FFF;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
 
+h1 {
+    font-size: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+h2 {
+    margin-top: 3vw;
+    font-size: 2vw;
+    margin-bottom: 5vw;
+}
+
+h3 {
+    font-size: 1.4vw;    
+    margin-bottom: 1vw;
+}
 
 .square {
     width: 100px;
@@ -98,12 +116,20 @@ h1 {
     background-color: yellow;
 }
 
+.darkyellow {
+    background-color: #ffbe00;
+}
+
 .yellowgreen {
     background-color: yellowgreen;
 }
 
 .lightgreen {
     background-color: lightgreen;
+}
+
+.lightblue {
+    background-color: #07b0f3;
 }
 
 
@@ -162,6 +188,26 @@ h1 {
     background-color: #592d8e;
 }
 
+.pink {
+    background-color: #ff3098;
+}
+
+.purple03 {
+    background-color: #7030a0;
+}
+
+.green02 {
+    background-color: #00af50;
+}
+
+.lightBrown {
+    background-color: #fac090;
+}
+
+.red {
+    background-color: red;
+}
+
 .top-right-triangle {
     width: 0; 
     height: 0; 
@@ -184,5 +230,36 @@ h1 {
 
     h1 {
         font-size: 2.3vw;
+    }
+}
+
+/************************************************************/
+/* Versión Negra */
+.blackBG {
+    background-color: #000;
+}
+
+.blackBG .container {
+    width: 300px;
+    -ms-transform: rotate(0); /* IE 9 */
+    transform: rotate(0);
+}
+/* Versión Blanca */
+
+@media only screen and (max-width:767px) {
+    .blackBG .container {
+        width: 210px;
+    }
+
+    .blackBG h1 {
+        font-size: 6vw;
+    }
+
+    .blackBG h2 {
+        font-size: 4vw;
+    }
+
+    .blackBG h3 {
+        font-size: 3vw;
     }
 }
